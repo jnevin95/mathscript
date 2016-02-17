@@ -1,0 +1,27 @@
+#!/usr/bin/env node
+
+//declare variables
+var op   = process.argv[2],
+	num1 = Number(process.argv[3]),
+	num2 = Number(process.argv[4]),
+	sum  = num1 + num2,
+	sum2 = num1 - num2,
+	prod = num1 * num2,
+	quot = num1 / num2;
+
+//ADD
+if(op === "add"){
+	console.log(num1 + " + " + num2 + " = " + sum)
+	}
+//SUBTRACT
+if(op === "subtract"){
+	console.log(num1 + " - " + num2 + " = " + sum2)
+	} 
+//MULTIPLY
+if(op === "multiply"){
+	console.log(num1 + " * " + num2 + " = " + prod)
+	}
+//DIVIDE
+if(op === "divide"){
+	console.log(num1 + " / " + num2 + " = " + quot)
+	};
