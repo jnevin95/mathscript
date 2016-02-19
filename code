@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 //declare variables
-var op   = process.argv[2],
+var     op   = process.argv[2],
 	num1 = Number(process.argv[3]),
 	num2 = Number(process.argv[4]),
 	sum  = num1 + num2,
